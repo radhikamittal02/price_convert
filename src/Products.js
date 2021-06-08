@@ -41,7 +41,7 @@ export default function Products(){
             <div className="cards">
                 {data.map((item)=>{
                     return(
-                        <div className="each-card">
+                        <div className="each-card" key={item.id}>
                             <div className="product-image"><img loading="lazy" src={item.image} alt="unable to load"></img></div>
                             <div className="product-name">{item.product_name}</div>
                             <div className="product-price">{Math.round(item.price*currencyRate)} {currency}</div>
