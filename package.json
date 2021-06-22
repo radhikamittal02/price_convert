@@ -1,6 +1,5 @@
 {
-  "homepage": "http://neelabhv.github.io/ecom",
-  "name": "ecom",
+  "name": "price_convert",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
